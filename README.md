@@ -16,20 +16,20 @@ Before you start editing any code, you will need to create a new branch in your
 GitHub repository to hold your work.
 
 1. Go to the repository that GitHub Classroom created for you. You should have received an email/link and you are most probably reading this there. It should look like
-`https://github.com/cs4583spring2019/scala-hw3-<your-username>`, where
+`https://github.com/cs4583fall2020/python-hw3-<your-username>`, where
 `<your-username>` is your GitHub username. 
 [Create a branch through the GitHub interface](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/).
 2. Name your `<branch>` as `lastname_firstname_dev`
 2. Clone the repository to your local machine and checkout the branch you
 just created. Your command must be similar to :
    ```
-   git clone -b <branch> https://github.com/cs4583spring2019/scala-hw3-<your-username>.git
+   git clone -b <branch> https://github.com/cs4583fall2020/python-hw3-<your-username>.git
    ```
 
 # Write your code
 
-You will implement one function each for each of the 4 qns, Eg:`runQ13a()` inside 
-the class `QueryEngine`. These functions should return the documents in the right order (atleast the top 2) , as asked in the question, as Lucene Documents. 
+You will implement one function each for each of the sub questions of qns 5, Eg:` def q5_1(self,query):` inside 
+the class `InvertedIndex`(src/main/python/edu/arizona/cs/invertedindex.py). These functions should return the documents in the right order (atleast the top 2) , as asked in the question, as Lucene Documents. 
 A sample return function is also provided for your reference. 
 
 Also, you **should not edit** these files:
