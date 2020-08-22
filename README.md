@@ -50,20 +50,14 @@ To run all the provided tests, run the ``pytest`` script from the parent directo
 
 If your code passes the test case, you will see output like:
 ```
-[info] Loading project definition from /Users/mordor/teaching_for_grading/hw3_qn1_stub_scala_version/project
-[info] Loading settings for project hw3_qn1_stub_scala_version from build.sbt ...
-[info] Set current project to hw3_scala (in build file:/Users/mordor/teaching_for_grading/hw3_qn1_stub_scala_version/)
-[info] QueryEngineTest:
-[info] - QueryEngine.Q1
-[info] - QueryEngine.Q13a
-[info] - QueryEngine.Q13b
-[info] - QueryEngine.Q13c
-[info] Run completed in 804 milliseconds.
-[info] Total number of tests run: 4
-[info] Suites: completed 1, aborted 0
-[info] Tests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0
-[info] All tests passed.
-[success] Total time: 5 s, completed Mar 13, 2019, 8:38:34 PM
+============================= test session starts ==============================
+platform darwin -- Python 3.8.3, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /Users/mordor/tawork/hw1/hw1_python
+collected 3 items                                                              
+
+src/test/python/edu/arizona/cs/test_q5.py ...                            [100%]
+
+============================== 3 passed in 0.10s ===============================
 ```
 
 # Submitting your code
