@@ -18,8 +18,8 @@ GitHub repository to hold your work.
 `https://github.com/cs4583fall2020/python-hw3-<your-username>`, where
 `<your-username>` is your GitHub username. 
 [Create a branch through the GitHub interface](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/).
-2. Name your `<branch>` as `lastname_firstname_dev`
-2. Clone the repository to your local machine and checkout the branch you
+2. Name your `<branch>` as `lastname_firstname_dev` (**very important , dont call it anything else)
+3. Clone the repository to your local machine and checkout the branch you
 just created. Your command must be similar to :
    ```
    git clone -b <branch> https://github.com/cs4583fall2020/python-hw3-<your-username>.git
@@ -46,7 +46,7 @@ Also, you **should not edit** these files:
 # Test your code
 
 Tests have been provided for you in the `src/test/python/edu/arizona/cs/test_q5.py` file.
-To run all the provided tests, run the ``pytest`` script from the parent directory containing `src/` or any of its subdirectories
+To run all the provided tests, just type/run  ``pytest`` from command line from the directory containing `src/` or any of its subdirectories
 
 If your code passes the test case, you will see output like:
 ```
