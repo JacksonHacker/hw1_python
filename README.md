@@ -8,7 +8,6 @@ Minimally, you should install:
 * [Python (3.8 or higher)](https://www.python.org/)
 * [Pytest](https://docs.pytest.org/en/stable/)
 
-**rest will be ideally installed by the build.sbt in this project when you do sbt compile or sbt test.**
 
 # Check out a new branch
 
@@ -29,33 +28,25 @@ just created. Your command must be similar to :
 # Write your code
 
 You will implement one function each for each of the sub questions of qns 5, Eg:` def q5_1(self,query):` inside 
-the class `InvertedIndex`(src/main/python/edu/arizona/cs/invertedindex.py). These functions should return the documents in the right order (atleast the top 2) , as asked in the question, as Lucene Documents. 
-A sample return function is also provided for your reference. 
+the class `InvertedIndex`(src/main/python/edu/arizona/cs/invertedindex.py). These functions should return the documents in the right order , as asked in the question. 
 
 Also, you **should not edit** these files:
 - `runAllTests.sh`
 - `.travis.yml`
-- `src/test/resources/input.txt`
-- `src/test/scala/edu/arizona/cs/QueryEngineTest.scala`
+- `src/main/resources/Docs.txt`
+- `src/test/python/edu/arizona/cs/test_q5.py`
 
-**Note: The file `src/test/resources/input.txt` is the input file you must use (or would have started using) as per hw3 guidelines. Please don't edit it or move it.**
-
-Also don’t modify the signature of these functions/classes:
-
-Eg:
-
-```
-class QueryEngineTest extends FunSuite{
-  test("QueryEngine.Q1") {
-```
+**Note: The file `src/main/resources/Docs.txt` is the input file you must use as per hw1 guidelines. Please don't edit it or move it.**
 
 
-### TL;DR: If you have already started coding, your code should have ideally been returning Lucene documents as results. Now all you have to do is return your results via the respective `runQ1*` functions.
+
+
+### TL;DR: If you have already started coding, your code should have ideally been returning document names as results. Now all you have to do is return your results as strings via the respective `q5_*` functions.
 
 # Test your code
 
-Tests have been provided for you in the `src/test/scala/edu/arizona/cs/QueryEngineTest.scala` file.
-To run all the provided tests, run the ``sbt test`` script from the directory containing `build.sbt`
+Tests have been provided for you in the `src/test/python/edu/arizona/cs/test_q5.py` file.
+To run all the provided tests, run the ``pytest`` script from the parent directory containing `src/` or any of its subdirectories
 
 If your code passes the test case, you will see output like:
 ```
