@@ -18,7 +18,7 @@ GitHub repository to hold your work.
 `https://github.com/cs4583fall2020/python-hw3-<your-username>`, where
 `<your-username>` is your GitHub username. 
 [Create a branch through the GitHub interface](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/).
-2. Name your `<branch>` as `lastname_firstname_dev` (** very important , dont call it anything else **)
+2. Name your `<branch>` as `lastname_firstname_dev` (**very important , dont call it anything else**)
 3. Clone the repository to your local machine and checkout the branch you
 just created. Your command must be similar to :
    ```
@@ -74,12 +74,15 @@ Then go to the "Files changed" tab, and make sure that all your changes look as 
 to.
 There are test cases that will be run automatically (via., [travis](https://travis-ci.com/))
 when a pull request is submitted. 
-These are the same as `sbt test`. 
-So if your code passed `sbt test` in your machine, 
+These are the same as `pytest`. 
+So if your code passed `pytest` in your machine, 
 it’s highly likely that it will pass in github. Nevertheless 
 you should make sure that you see a green tick mark or a message 
 saying “All Checks Have Passed”. Else close the pull request, fix the errors, and raise another pull request.
+
 **Do not merge the pull request.**
+
+**Again Very Important:Do not merge the pull request.**
 
 Your instructor will grade the code of this pull request. 
 Pull requests submitted after the deadline won’t be considered.
@@ -92,3 +95,4 @@ Assignments that pass all, and with the corresponding code implementing the corr
 possible points.
 
 To get the remaining of the points, the scores you return for all the documents will be checked.
+(
