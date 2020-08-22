@@ -38,11 +38,6 @@ Also, you **should not edit** these files:
 
 **Note: The file `src/main/resources/Docs.txt` is the input file you must use as per hw1 guidelines. Please don't edit it or move it.**
 
-
-
-
-### TL;DR: If you have already started coding, your code should have ideally been returning document names as results. Now all you have to do is return your results as strings via the respective `q5_*` functions.
-
 # Test your code
 
 Tests have been provided for you in the `src/test/python/edu/arizona/cs/test_q5.py` file.
