@@ -18,7 +18,7 @@ GitHub repository to hold your work.
 `https://github.com/cs4583fall2020/python-hw3-<your-username>`, where
 `<your-username>` is your GitHub username. 
 [Create a branch through the GitHub interface](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/).
-2. Name your `<branch>` as `lastname_firstname_dev` (**very important , dont call it anything else)
+2. Name your `<branch>` as `lastname_firstname_dev` (** very important , dont call it anything else)
 3. Clone the repository to your local machine and checkout the branch you
 just created. Your command must be similar to :
    ```
