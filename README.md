@@ -22,7 +22,7 @@ GitHub repository to hold your work.
 3. Clone the repository to your local machine and checkout the branch you
 just created. Your command must be similar to :
    ```
-   git clone -b <branch> https://github.com/cs4583fall2020/python-hw3-<your-username>.git
+   git clone -b <branch> https://github.com/cs4583fall2020/python-hw1-<your-username>.git
    ```
 
 # Write your code
