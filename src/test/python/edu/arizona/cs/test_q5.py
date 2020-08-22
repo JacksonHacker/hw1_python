@@ -45,3 +45,23 @@ class TryTesting(TestCase):
         assert (ans_qn5_2[3]) is not None
         assert (type(ans_qn5_2[3])) is str
         assert (ans_qn5_2[3]) == "Doc4"
+
+    def test_q5_3(self):
+        query_qn5_3 = "(drug OR treatment) AND schizophrenia"
+        ans_qn5_3 = InvertedIndex(self.docs).q5_3(query_qn5_3)
+        assert type(ans_qn5_3) is not None
+        assert type(ans_qn5_3) is list
+        assert len(ans_qn5_3) > 0
+
+        assert (ans_qn5_3[0]) is not None
+        assert (type(ans_qn5_3[0])) is str
+        assert (ans_qn5_3[0]) == "Doc1"
+
+        assert (ans_qn5_3[1]) is not None
+        assert (type(ans_qn5_3[1])) is str
+        assert (ans_qn5_3[1]) == "Doc2"
+
+        assert (ans_qn5_3[2]) is not None
+        assert (type(ans_qn5_3[2])) is str
+        assert (ans_qn5_3[2]) == "Doc4"
+
