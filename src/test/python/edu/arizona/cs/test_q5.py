@@ -1,5 +1,3 @@
-# test_with_unittest.py
-
 from unittest import TestCase
 from src.main.python.edu.arizona.cs.invertedindex import InvertedIndex
 
@@ -20,8 +18,6 @@ class TryTesting(TestCase):
         assert (ans_qn5_1[1]) is not None
         assert (type(ans_qn5_1[1])) is str
         assert (ans_qn5_1[1]) == "Doc4"
-
-
 
     def test_q5_2(self):
         query_qn5_2="breakthrough OR new"
