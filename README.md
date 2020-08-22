@@ -18,7 +18,7 @@ GitHub repository to hold your work.
 `https://github.com/cs4583fall2020/python-hw3-<your-username>`, where
 `<your-username>` is your GitHub username. 
 [Create a branch through the GitHub interface](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/).
-2. Name your `<branch>` as `lastname_firstname_dev` (**very important , dont call it anything else**)
+2. Name your `<branch>` as `yourlastname_yourfirstname_dev` (**very important , do NOT name it anything else**)
 3. Clone the repository to your local machine and checkout the branch you
 just created. Your command must be similar to :
    ```
@@ -86,13 +86,13 @@ saying “All Checks Have Passed”. Else close the pull request, fix the errors
 
 Your instructor will grade the code of this pull request. 
 Pull requests submitted after the deadline won’t be considered.
+You don't have to submit the code in D2l. Note that you still have to submit the answers to qns 1 to 4 in D2l.
 
 # Grading
 
-Qn1 of this assignment will be graded primarily on their ability to pass the tests that
+Qn5 of this assignment will be graded primarily on their ability to pass the tests that
 have been provided to you on github after the pull request.
-Assignments that pass all, and with the corresponding code implementing the correct logic, will receive at least 90% of the
+Assignments that pass all, and with the corresponding code implementing the correct logic, will receive at least 95% of the
 possible points.
 
-To get the remaining of the points, the scores you return for all the documents will be checked.
-(
+To get the remaining of the points, your code will be checked for things like readability and ofcourse fraud.
