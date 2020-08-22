@@ -5,8 +5,8 @@ you expect to use for this assignment.
 Minimally, you should install:
  
 * [git](https://git-scm.com/downloads)
-* [Python (version oraclejdk8 or higher)](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html/)
-* [sbt](https://www.scala-sbt.org/)
+* [Python (3.8 or higher)](https://www.python.org/)
+* [Pytest](https://docs.pytest.org/en/stable/)
 
 **rest will be ideally installed by the build.sbt in this project when you do sbt compile or sbt test.**
 
